@@ -235,7 +235,7 @@ end)
 
 do -- Script
 	repeat wait() until valid and valid2 and not valid3
-
+local Version = nil
 	if private then
 		Version = "Private"
 	else
@@ -249,7 +249,7 @@ do -- Script
 	end
 
 	-- script here
-print(Version")
+	print(Version)
 
 	if jmp_counter ~= 6 then
 		LPH_CRASH()
